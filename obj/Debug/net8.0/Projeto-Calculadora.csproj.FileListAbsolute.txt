@@ -1,0 +1,14 @@
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\bin\Debug\net8.0\Projeto-Calculadora.exe
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\bin\Debug\net8.0\Projeto-Calculadora.deps.json
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\bin\Debug\net8.0\Projeto-Calculadora.runtimeconfig.json
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\bin\Debug\net8.0\Projeto-Calculadora.dll
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\bin\Debug\net8.0\Projeto-Calculadora.pdb
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.AssemblyInfoInputs.cache
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.AssemblyInfo.cs
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.csproj.CoreCompileInputs.cache
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.dll
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\refint\Projeto-Calculadora.dll
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.pdb
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\Projeto-Calculadora.genruntimeconfig.cache
+D:\Ariel\VSCode\CSharp\Balta.io\Projeto-Calculadora\obj\Debug\net8.0\ref\Projeto-Calculadora.dll
