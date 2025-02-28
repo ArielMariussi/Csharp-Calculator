@@ -32,10 +32,10 @@ namespace Calculadora
 
             switch (type)
             {
-                case 'a': Console.WriteLine(Adicao(v1, v2)); break;
-                case 's': Console.WriteLine(Subtracao(v1, v2)); break;
-                case 'm': Console.WriteLine(Multiplicacao(v1, v2)); break;
-                case 'd': Console.WriteLine(Divisao(v1, v2)); break;
+                case 'a': Console.WriteLine("A soma desses numeros é igual a:" + Adicao(v1, v2)); break;
+                case 's': Console.WriteLine("A diferenca entre esses numeros é igual a:" + Subtracao(v1, v2)); break;
+                case 'm': Console.WriteLine("A multiplicacao entre esses numeros e igual a: " + Multiplicacao(v1, v2)); break;
+                case 'd': Console.WriteLine("A divisao entre esses numeros e igual a: " + Divisao(v1, v2)); break;
             }
         }
 
