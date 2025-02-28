@@ -2,7 +2,7 @@
 using System.Runtime.Intrinsics;
 using System.Security.AccessControl;
 
-namespace Calculadora
+namespace Calculator
 {
 
     class Program
