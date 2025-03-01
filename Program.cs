@@ -24,39 +24,61 @@ namespace Calculator
             Console.WriteLine("Entre com outro valor:");
             float v2 = float.Parse(Console.ReadLine());
             Console.WriteLine("Escolha o tipo de operacao que deseja efetuar:");
-            Console.WriteLine("a => ADICAO");
-            Console.WriteLine("s => SUBTRACAO");
-            Console.WriteLine("m => MULTIPLICACAO");
-            Console.WriteLine("d => DIVISAO");
-            char type = char.Parse(Console.ReadLine());
+            Console.WriteLine("1 => ADICAO");
+            Console.WriteLine("2 => SUBTRACAO");
+            Console.WriteLine("3 => MULTIPLICACAO");
+            Console.WriteLine("4 => DIVISAO");
+            int type = int.Parse(Console.ReadLine());
 
             switch (type)
             {
-                case 'a': Console.WriteLine("A soma desses numeros é igual a:" + Adicao(v1, v2)); break;
-                case 's': Console.WriteLine("A diferenca entre esses numeros é igual a:" + Subtracao(v1, v2)); break;
-                case 'm': Console.WriteLine("A multiplicacao entre esses numeros e igual a: " + Multiplicacao(v1, v2)); break;
-                case 'd': Console.WriteLine("A divisao entre esses numeros e igual a: " + Divisao(v1, v2)); break;
+                case 1: Adicao(v1, v2); break;
+                case 2: Subtracao(v1, v2); break;
+                case 3: Multiplicacao(v1, v2); break;
+                case 4: Divisao(v1, v2); break;
             }
         }
 
-        static float Adicao(float v1, float v2)
+        static void Adicao(float v1, float v2)
         {
-            return v1 + v2;
+            float resultado = v1 + v2;
+            Console.WriteLine("A soma desses numeros é igual a:" + resultado);
+            Console.ReadKey();
+            Console.Clear();
+            Menu();
+
+
+
         }
 
-        static float Subtracao(float v1, float v2)
+        static void Subtracao(float v1, float v2)
         {
-            return v1 - v2;
+            float resultado = v1 - v2;
+
+            Console.WriteLine("A diferenca entre esses numeros é igual a:" + resultado);
+            Console.ReadKey();
+            Console.Clear();
+            Menu();
         }
 
-        static float Multiplicacao(float v1, float v2)
+        static void Multiplicacao(float v1, float v2)
         {
-            return v1 * v2;
+            float resultado = v1 * v2;
+
+            Console.WriteLine("A multiplicacao entre esses numeros e igual a:" + resultado);
+            Console.ReadKey();
+            Console.Clear();
+            Menu();
         }
 
-        static float Divisao(float v1, float v2)
+        static void Divisao(float v1, float v2)
         {
-            return v1 / v2;
+            float resultado = v1 / v2;
+
+            Console.WriteLine("A divisao entre esses numeros e igual a: " + resultado);
+            Console.ReadKey();
+            Console.Clear();
+            Menu();
         }
     }
 }
